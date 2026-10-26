@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 3500,
+    "category": "electronics",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 5200,
+    "category": "electronics",
+    "rating": 4.4,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Backpack",
+    "price": 2800,
+    "category": "fashion",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "price": 4500,
+    "category": "fashion",
+    "rating": 4.7,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Coffee Mug",
+    "price": 650,
+    "category": "home",
+    "rating": 4.2,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558f5855d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Desk Lamp",
+    "price": 1900,
+    "category": "home",
+    "rating": 4.3,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Sunglasses",
+    "price": 1600,
+    "category": "fashion",
+    "rating": 4.1,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "price": 2400,
+    "category": "electronics",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Plant Pot",
+    "price": 900,
+    "category": "home",
+    "rating": 4.0,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Water Bottle",
+    "price": 750,
+    "category": "home",
+    "rating": 4.4,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80"
+  }
+]

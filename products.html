@@ -1,0 +1,70 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo">ShopEasy</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<main class="page-section">
+
+    <h1>Our Products</h1>
+    <p>Explore our collection and find your favourites.</p>
+
+    <section class="toolbar">
+
+        <label for="search-input">Search Products
+            <input type="search" id="search-input"
+                   placeholder="Search by product name...">
+        </label>
+
+        <label for="category-filter">Select Category
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home</option>
+            </select>
+        </label>
+
+        <label for="sort-order">Sort Products
+            <select id="sort-order">
+                <option value="default">Featured</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+            </select>
+        </label>
+
+    </section>
+
+    <p id="loading-message">Loading products...</p>
+
+    <section id="product-grid" class="product-grid"></section>
+
+    <p id="action-message" class="action-message"></p>
+
+</main>
+
+<footer>
+    <p>ShopEasy | Web Engineering Assignment 02</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+
+</body>
+</html>
+```

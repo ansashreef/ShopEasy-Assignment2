@@ -1,0 +1,71 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a href="index.html" class="logo">ShopEasy</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <p class="eyebrow">WELCOME TO SHOPEASY</p>
+        <h1>Find Your Everyday Favourites</h1>
+        <p>Discover amazing products for your home, fashion and technology needs.</p>
+        <a href="products.html" class="button-link">Explore Products</a>
+    </section>
+
+    <section class="page-section">
+        <h2>Featured Products</h2>
+        <p id="loading-message">Loading products...</p>
+        <div id="featured-products" class="product-grid"></div>
+    </section>
+
+    <section class="page-section faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button">How can I order?</button>
+            <div class="faq-answer">
+                <p>Add products to your cart and complete the checkout form.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button">Can I change quantity?</button>
+            <div class="faq-answer">
+                <p>Yes, you can increase or decrease product quantities in your cart.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" type="button">Are real payments accepted?</button>
+            <div class="faq-answer">
+                <p>No, this is a student project and does not process real payments.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>ShopEasy | Web Engineering Assignment 02</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/store.js"></script>
+<script src="js/ui.js"></script>
+
+</body>
+</html>
+```
